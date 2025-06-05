@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/umamahesh571/evolve-ecommerce.git'
+                git branch: 'main', url: 'https://github.com/umamahesh571/jenkins-k8s-integration.git'
             }
         }
 
