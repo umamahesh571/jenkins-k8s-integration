@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'yourdockerhubusername/evolve-ecommerce'
+        IMAGE_NAME = 'umamahesh571/evolve-ecommerce'
     }
 
     stages {
