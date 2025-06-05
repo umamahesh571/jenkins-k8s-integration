@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/umamahesh571/evolve-ecommerce.git'
+                git branch: 'main', url: 'https://github.com/umamahesh571/evolve-ecommerce.git'
             }
         }
 
@@ -37,6 +37,18 @@ pipeline {
                     kubectl apply -f service.yaml
                 '''
             }
+        }
+    }
+
+    post {
+        success {
+            echo '✅ Pipeline completed successfully.'
+        }
+        failure {
+            echo '❌ Pipeline failed. Check the build logs for details.'
+        }
+        always {
+            echo '📦 Build finished.'
         }
     }
 }
