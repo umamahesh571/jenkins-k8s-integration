@@ -9,7 +9,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.2.5</version>
-    <relativePath/> <!-- Use parent from Maven Central -->
+    <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
   <groupId>com.evolve</groupId>
@@ -34,6 +34,9 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <mainClass>com.evolve.ecommerce.EcommerceApplication</mainClass>
+        </configuration>
       </plugin>
     </plugins>
   </build>
