@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/evolve-ecommerce.git'
+                git 'https://github.com/umamahesh571/evolve-ecommerce.git'
             }
         }
 
