@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: evolve-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: evolve
+  template:
+    metadata:
+      labels:
+        app: evolve
+    spec:
+      containers:
+      - name: evolve
+        image: yourdockerhubusername/evolve-ecommerce:latest
+        ports:
+        - containerPort: 8080
