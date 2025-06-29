@@ -1,4 +1,4 @@
-# 🚀 EVOLVE E-Commerce – Full Setup & CI/CD Guide
+# 🚀 EVOLVE E-Commerce – Full Setup & CI/CD Guide 
 
 A simple static e-commerce app built with Spring Boot, Maven, Docker, Jenkins, and Kubernetes.
 
