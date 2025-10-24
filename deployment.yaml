@@ -16,4 +16,4 @@ spec:
       - name: evolve
         image: umamahesh571/evolve-ecommerce
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
