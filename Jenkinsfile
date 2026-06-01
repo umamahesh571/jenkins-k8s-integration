@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        maven 'maven.15'
+    }
 
     environment {
         IMAGE_NAME = 'umamahesh571/evolve-ecommerce'
