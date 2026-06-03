@@ -7,6 +7,6 @@ spec:
   selector:
     app: evolve
   ports:
-    - port: 8081
-      targetPort: 8081
+    - port: 8090
+      targetPort: 8090
       
