@@ -31,3 +31,5 @@ kubectl apply -f service.yaml
   - DockerHub credentials set as `dockerhub-creds`
 
 - Example Jenkinsfile is already provided.
+
+- trigger
